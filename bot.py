@@ -7,9 +7,7 @@ from telegram.ext import (
     filters
 )
 
-import os
-TOKEN = os.getenv("TOKEN")
-
+TOKEN = "8498785432:AAGw4oIpoKeGej7kfWgHZuoSB_Aw7pmcrAY"
 
 # Специалист (бот сам запомнит после первого сообщения)
 SPECIALIST_CHAT_ID = 1347805920

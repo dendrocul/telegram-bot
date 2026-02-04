@@ -8,7 +8,11 @@ from telegram.ext import (
 )
 
 import os
+
 TOKEN = os.getenv("TOKEN")
+if TOKEN is None:
+    raise ValueError("Переменная окружения TOKEN не найдена!")
+
 
 
 # Специалист (бот сам запомнит после первого сообщения)
